@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Forms and Selections</title>
+  </head>
+  <body>
+
+    <h1>Forms and Selections</h1>
+    <!-- there are variety of input methods  -->
+
+    <!-- these include radio button(linked),drop down menus,text area inputs -->
+
+    <h1>Hotel Feedback Form</h1>
+    <form method="get">
+      <h3>Are you from inside the US? Or Outside the US</h3>
+      <label for="inusa">Inside: </label>
+      <input id="inusa" type="radio" name="loc" value="">
+
+      <label for="outusa">Outside: </label>
+      <input id="outusa" type="radio" name="loc" value="">
+
+      <!-- to make only any one of them selected we would be using name  -->
+    </form>
+
+    <form method="post">
+
+      <p>How was your Service?</p>
+
+      <!-- we would be exploring the dropdown menu -->
+      <select name="stars">
+        <option value="Great">3</option>
+        <option value="Okay">2</option>
+        <option value="Bad">1</option>
+
+      </select>
+
+      <input type="button" name="" value="SUBMIT">
+
+
+
+      <!-- inorder to write any feedback we would be using a textarea -->
+
+      <label for="textarea">Any Suggestions:</label>
+      <textarea name="mytext" rows="8" cols="80"></textarea>
+
+    </form>
+
+  </body>
+</html>
