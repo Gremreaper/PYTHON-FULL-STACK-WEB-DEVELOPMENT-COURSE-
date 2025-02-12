@@ -1,0 +1,27 @@
+body{
+  background-color:gray;
+  background:url() /*by inserting the url we can arrange the background of page to the background image*/
+  background-repeat:no-repeat;
+  /* we can decide how many times does the image needs to repeat itself or no-repeat*/
+}
+
+div{
+  background-color:blue;
+  /* background-color or background are both the same things */
+  border-color:red;
+  border-width:thick;
+  border-style:dotted;
+  /* three main features of border mentioned above color,width and style */
+}
+
+span{
+  background-color:red;
+  border-color:black;
+  border-width:10px; /* in pixels format*/
+  border-style:dotted;
+}
+
+p{
+  color:yellow;
+  /* will implement in all the paragraphs we have mentioned*/
+}

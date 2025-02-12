@@ -1,0 +1,30 @@
+/* this is the format of comment in css */
+
+h1{
+  color:rgba(0,43,2,1);
+
+  /* a value decided how dark or light the color is that is its opacity*/
+
+  /* 0 is fully transparent and 1 is fully opaque */
+  /* its value ranges from 0 to 1*/
+}
+
+li{
+  color:green;
+  /*
+   selected tag{
+   property:value;
+ }
+
+  */
+}
+
+h4{
+  color:rgb(255,0,255);
+  /* 0 0 0 is black and 255 255 255 is white */
+}
+
+p{
+  color:#ff6100;
+  /*color change using hex code*/
+}

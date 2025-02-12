@@ -1,0 +1,50 @@
+
+.firstDiv{
+  color:red;
+}
+
+.secondDiv{
+  color:blue;
+}
+
+/* for a class to use in css we use a .
+
+/* we are using ids for unique elements and class for multiple elements,so
+
+/* id's use a # hastag*/
+
+#singledout{
+   color:green;
+   text-decoration:line-through;
+   /*in order to decorate a specific text */
+}
+
+/* * r asterisk is a selector to select every element on the age*/
+
+/* it would override the class calls but not the id's*/
+
+*{
+  color:black;
+}
+
+
+/*json siblings having elements next to each other */
+
+h3 + ul{
+   border:4px dotted purple;
+   /* thickness style and color*/
+
+   /*select all unordered list elements imeediately after the h3*/
+}
+
+/* desendence in css*/
+li a {
+   /* all anchor tags inside of a list*/
+   color:red;
+}
+
+li a[href="www.linkedin.com"]{
+  /* for a particular link in the list  of all links*/
+  color:purple;
+  border:5px solid orange;
+}
