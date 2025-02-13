@@ -1,0 +1,16 @@
+body{
+  background-color:rgba(137, 196, 244);
+}
+
+#refer1{
+    border:2px solid black;
+}
+
+#refer2{
+  background-color:yellow;
+}
+
+.outcheck{
+  border:3px dashed yellow;
+  background-color:blue;
+}
