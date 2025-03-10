@@ -1,0 +1,32 @@
+h1{
+  font-family:cursive;
+  /*wrapping in a string along with the font family*/
+  font-family:"Arial";
+  /* some fonts might not work on every OS*/
+  /* we might have some fonts built in but there can be fonts that are different than this*/
+  text-align:center;
+}
+
+p{
+  font-family:monospace;
+  font-style:italic;
+  font-weight:bold; /* more weight of the text*/
+}
+
+body{
+  font-size:10px;
+  /* size of the text*/
+  /* em or emphasis is a dynamic size compared to the size of the parent*/
+  /* 1em=16px,2em=32px*/
+}
+
+
+body{
+  font-size:20px;
+}
+
+
+#two{
+  font-size: 2.0 em;
+  /* twice the font size than the parent*/
+}
